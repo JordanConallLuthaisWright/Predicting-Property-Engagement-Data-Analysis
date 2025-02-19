@@ -32,3 +32,46 @@ This project analyzes **property interactions** using **data cleaning, feature e
    jupyter notebook
    ```
 4. **Run `Predicting Property Engagement Data Analysis.ipynb`** step-by-step.
+
+## Business Scenario  
+Real estate platforms track user engagement through **property interactions**, defined as a **contact request for a property owner’s details**. This project aims to address the following:  
+
+1. **Can we predict the number of interactions a property will receive within a specific timeframe?**  
+2. **Which property attributes (e.g., BHK type, location, rent) influence engagement?**  
+3. **What data-driven insights can improve real estate listing strategies?**  
+
+## Methodology & Technical Skills Demonstrated  
+
+### 1. Data Cleaning & Preprocessing  
+- Processed **missing values** and ensured **date formatting**.  
+- Handled **corrupt JSON** data in `property_photos.tsv` to extract photo counts.  
+- Merged datasets to create a **feature-rich training dataset**.
+
+### 2. Exploratory Data Analysis (EDA)  
+- **Visualized** interaction trends using **Seaborn & Matplotlib**.  
+- Examined **correlations** between property attributes and engagement levels.  
+
+### 3.  Feature Engineering  
+- Extracted **photo counts** from JSON metadata.  
+- Computed **time-based interaction metrics**.  
+- Processed categorical data using **One-Hot Encoding**.
+
+### 4. Machine Learning Models  
+- **Logistic Regression** and **Random Forest Classification** tested for interaction prediction.  
+- Evaluated models using **precision, recall, and F1-score**.  
+- Findings showed that **classification models underperformed**, and **linear regression** was the best fit.
+
+##  5. Key Findings & Conclusion  
+- **Property attributes like rent, BHK type, and locality impact engagement.**  
+- **Photo count affects interaction rates**, highlighting the importance of high-quality listings.  
+- **Linear Regression outperforms classification models**, making it the preferred predictive approach.  
+
+## **Contact & Contributions**
+Feel free to explore and contribute! If you have any suggestions, reach out or submit a pull request.
+- **Email**: [jordan.c.l.wright@gmail.com](mailto:jordan.c.l.wright@gmail.com)
+
+---
+
+### **Author:** Jordan
+[GitHub Profile](https://github.com/JordanConallLuthaisWright)
+```
