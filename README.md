@@ -1,6 +1,7 @@
 # Predicting-Property-Engagement-Data-Analysis and Modeling 
-This project involved data cleaning, feature engineering, and predictive modeling to analyze property interactions. Tasks included handling corrupt JSON data, merging datasets, exploratory data analysis (EDA), and implementing logistic regression, random forests, and linear regression for prediction.
+***This project involved data cleaning, feature engineering, and predictive modeling to analyze property interactions. Tasks included handling corrupt JSON data, merging datasets, exploratory data analysis (EDA), and implementing logistic regression, random forests, and linear regression for prediction.***
 
+---
 
 ## Project Aim 
 This project analyzes **property interactions** using **data cleaning, feature engineering, exploratory data analysis (EDA), and predictive modeling**. The goal is to predict the number of interactions a property will receive **within 3 and 7 days** of activation.
@@ -20,6 +21,8 @@ This project analyzes **property interactions** using **data cleaning, feature e
 | `property_interactions.csv` | Logs interactions (user requests for owner contact). |
 | `property_photos.tsv` | Stores photo metadata, requiring JSON correction for valid extraction. |
 
+---
+
 ## How to Run This Project  
 1. **Clone the repository**  
   
@@ -33,12 +36,16 @@ This project analyzes **property interactions** using **data cleaning, feature e
    ```
 4. **Run `Predicting Property Engagement Data Analysis.ipynb`** step-by-step.
 
+---
+
 ## Business Scenario  
 Real estate platforms track user engagement through **property interactions**, defined as a **contact request for a property owner’s details**. This project aims to address the following:  
 
 1. **Can we predict the number of interactions a property will receive within a specific timeframe?**  
 2. **Which property attributes (e.g., BHK type, location, rent) influence engagement?**  
 3. **What data-driven insights can improve real estate listing strategies?**  
+
+---
 
 ## Methodology & Technical Skills Demonstrated  
 
@@ -61,10 +68,14 @@ Real estate platforms track user engagement through **property interactions**, d
 - Evaluated models using **precision, recall, and F1-score**.  
 - Findings showed that **classification models underperformed**, and **linear regression** was the best fit.
 
-##  5. Key Findings & Conclusion  
+---
+
+## Key Findings & Conclusion  
 - **Property attributes like rent, BHK type, and locality impact engagement.**  
 - **Photo count affects interaction rates**, highlighting the importance of high-quality listings.  
-- **Linear Regression outperforms classification models**, making it the preferred predictive approach.  
+- **Linear Regression outperforms classification models**, making it the preferred predictive approach.
+
+--- 
 
 ## **Contact & Contributions**
 Feel free to explore and contribute! If you have any suggestions, reach out or submit a pull request.
