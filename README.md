@@ -1,2 +1,2 @@
 # Predicting-Property-Engagement-Data-Analysis
-This Real Estate Data Analysis Project evaluates property interaction patterns using logistic regression and random forest classifiers to predict engagement levels. The results indicate poor classification performance, with linear regression emerging as the better approach.
+This project involved data cleaning, feature engineering, and predictive modeling to analyze property interactions. Tasks included handling corrupt JSON data, merging datasets, exploratory data analysis (EDA), and implementing logistic regression, random forests, and linear regression for prediction.
